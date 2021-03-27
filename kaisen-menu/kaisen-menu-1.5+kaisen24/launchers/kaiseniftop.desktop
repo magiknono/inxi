@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=iftop
+Comment=Tool to monitor networks
+Comment[fr]=Outil pour monitorer les réseaux
+Comment[es]=Herramienta para monitorear redes
+Comment[pt]=Ferramenta para monitoramento de redes
+Comment[it]=Strumento per il monitoraggio delle reti
+Comment[de]=Tool zur Überwachung von Netzwerken
+Exec=kaisen-launcher --command "iftop" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Monitoring
+X-Kaisen-Package=iftop

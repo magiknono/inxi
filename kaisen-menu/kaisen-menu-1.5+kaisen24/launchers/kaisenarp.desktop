@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arp
+Comment=Tool to show arp connection
+Comment[fr]=Outil pour afficher la connexion ARP
+Comment[es]=Herramienta para mostrar la conexión ARP
+Comment[pt]=Ferramenta para exibir a conexão ARP
+Comment[it]=Strumento per visualizzare la connessione ARP
+Comment[de]=Tool zum Anzeigen der ARP-Verbindung
+Exec=kaisen-launcher --command "arp" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=arp-scan

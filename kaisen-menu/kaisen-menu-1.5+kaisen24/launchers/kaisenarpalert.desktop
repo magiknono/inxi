@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arpalert
+Comment=Tool to receive alert on ARP protocol
+Comment[fr]=Outil pour recevoir des alertes sur le protocole ARP
+Comment[es]=Herramienta para recibir alertas ARP
+Comment[pt]=Ferramenta para receber alertas ARP
+Comment[it]=Strumento per ricevere avvisi ARP
+Comment[de]=Tool zum Empfangen von ARP-Warnungen
+Exec=kaisen-launcher --command "arpalert --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=arpalert

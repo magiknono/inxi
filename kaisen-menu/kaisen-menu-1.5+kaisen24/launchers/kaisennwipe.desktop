@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=nwipe
+Comment=Tool to completely erase file based on ncurses support
+Comment[fr]=Outil pour effacer complètement un fichier avec le support ncurses
+Comment[es]=Herramienta para eliminar completamente un archivo con soporte ncurses
+Comment[pt]=Ferramenta para excluir completamente um arquivo com suporte a ncurses
+Comment[it]=Strumento per eliminare completamente un file con il supporto di ncurses
+Comment[de]=Tool zum vollständigen Löschen einer Datei mit Unterstützung von ncurses
+Exec=kaisen-launcher --command "nwipe" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Partitioning
+X-Kaisen-Package=nwipe

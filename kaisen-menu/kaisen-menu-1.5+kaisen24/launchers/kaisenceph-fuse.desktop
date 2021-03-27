@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ceph-fuse
+Comment=Tool to manage CEPH volumes
+Comment[fr]=Outil pour gérer des volumes CEPH
+Comment[es]=Herramienta para gestionar volúmenes CEPH
+Comment[pt]=Ferramenta para gerenciar volumes CEPH
+Comment[it]=Strumento per la gestione dei volumi CEPH
+Comment[de]=Tool zum Verwalten von CEPH-Volumes
+Exec=kaisen-launcher --command "ceph-fuse" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Filesystems
+X-Kaisen-Package=ceph-fuse

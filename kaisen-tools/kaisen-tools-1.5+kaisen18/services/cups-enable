@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+RED='\e[1;31m'
+
+if [[ "$EUID" -ne "0" ]]; then
+        echo -e $RED "Run this script as root or with sudo command."
+        exit 1
+fi
+
+systemctl enable cups || true
+systemctl start cups || true
+systemctl enable cups.path || true
+systemctl start cups.path || true
+systemctl enable cups.socket || true
+systemctl start cups.socket || true
+systemctl enable cups-browsed || true
+systemctl start cups-browsed || true

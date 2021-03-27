@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=glusterfs
+Comment=Tool to mount gluster partition
+Comment[fr]=Outil pour monter une partition gluster
+Comment[es]=Herramienta para montar una partición Gluster
+Comment[pt]=Ferramenta para montar uma partição gluster
+Comment[it]=Strumento per montare una partizione gluster
+Comment[de]=Werkzeug zum Montieren einer Gluster-Trennwand
+Exec=kaisen-launcher --command "glusterfs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GlusterFS
+X-Kaisen-Package=glusterfs-client

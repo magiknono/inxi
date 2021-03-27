@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=fusesmb
+Comment=Tool to mount smb share in FUSE
+Comment[fr]=Outil pour monter un serveur SMB en mode FUSE
+Comment[es]=Herramienta para montar un servidor SMB en modo FUSE
+Comment[pt]=Ferramenta para montar um servidor SMB no modo FUSE
+Comment[it]=Strumento per montare un server SMB in modalità FUSE
+Comment[de]=Tool zum Mounten eines SMB-Servers im FUSE-Modus
+Exec=kaisen-launcher --command "fusesmb" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Mount
+X-Kaisen-Package=fusesmb

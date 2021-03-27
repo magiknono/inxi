@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+RED='\e[1;31m'
+
+if [[ "$EUID" -ne "0" ]]; then
+        echo -e $RED "Run this script as root or with sudo command."
+        exit 1
+fi
+
+systemctl enable docker || true
+systemctl start docker || true
+systemctl enable docker.socket || true
+systemctl start docker.socket || true
+systemctl enable containerd || true
+systemctl start containerd || true

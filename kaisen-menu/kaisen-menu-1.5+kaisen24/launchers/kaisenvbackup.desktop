@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vbackup
+Comment=Backup tool
+Comment[fr]=Outil de sauvegarde
+Comment[es]=Herramienta de respaldo
+Comment[pt]=Ferramenta de backup
+Comment[it]=Strumento di backup
+Comment[de]=Sicherungswerkzeug
+Exec=kaisen-launcher --command "vbackup"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=vbackup

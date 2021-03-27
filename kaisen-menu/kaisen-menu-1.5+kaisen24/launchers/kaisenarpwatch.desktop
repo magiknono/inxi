@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arpwatch
+Comment=Tool to show ARP requests
+Comment[fr]=Outil pour afficher les requêtes ARP
+Comment[es]=Herramienta para mostrar solicitudes ARP
+Comment[pt]=Ferramenta para exibir solicitações ARP
+Comment[it]=Strumento per visualizzare le richieste ARP
+Comment[de]=Tool zum Anzeigen von ARP-Anfragen
+Exec=kaisen-launcher --command "arpwatch --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=arpwatch

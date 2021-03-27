@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=mlocate
+Comment=Tool to find a file
+Comment[fr]=Outil pour trouver un fichier
+Comment[es]=Herramienta para encontrar un archivo
+Comment[pt]=Ferramenta para encontrar um arquivo
+Comment[it]=Strumento per trovare un file
+Comment[de]=Tool zum Finden einer Datei
+Exec=kaisen-launcher --command "mlocate -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=mlocate

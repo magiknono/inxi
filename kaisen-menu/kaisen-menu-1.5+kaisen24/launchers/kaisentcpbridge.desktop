@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=tcpbridge
+Comment=Tool to bridge network traffic
+Comment[fr]=Outil pour mettre en pont une connexion
+Comment[es]=Herramienta para unir una conexión
+Comment[pt]=Ferramenta para conectar uma conexão
+Comment[it]=Strumento per colmare una connessione
+Comment[de]=Tool zum Überbrücken einer Verbindung
+Exec=kaisen-launcher --command "tcpbridge"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=TCP
+X-Kaisen-Package=tcpreplay

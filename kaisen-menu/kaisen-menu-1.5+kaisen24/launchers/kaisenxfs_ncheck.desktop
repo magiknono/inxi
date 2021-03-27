@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=xfs_ncheck
+Comment=Tool for XFS partition
+Comment[fr]=Outil pour partition XFS
+Comment[es]=Herramienta de partición XFS
+Comment[pt]=Ferramenta de partição XFS
+Comment[it]=Strumento di partizione XFS
+Comment[de]=XFS-Partitionstool
+Exec=kaisen-launcher --command "xfs_ncheck" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=XFS
+X-Kaisen-Package=xfsprogs

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=backup2l
+Comment=Tool to backup files and folders
+Comment[fr]=Outil pour sauvegarder des fichiers et dossiers
+Comment[es]=Herramienta para hacer copias de seguridad de archivos y carpetas
+Comment[pt]=Ferramenta para fazer backup de arquivos e pastas
+Comment[it]=Strumento per il backup di file e cartelle
+Comment[de]=Tool zum Sichern von Dateien und Ordnern
+Exec=kaisen-launcher --command "backup2l"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=backup2l

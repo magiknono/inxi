@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxc-execute
+Comment=Tool to execute a LXC container
+Comment[fr]=Outil pour exécuter un container LXC
+Comment[es]=Herramienta para ejecutar un contenedor LXC
+Comment[pt]=Ferramenta para executar um contêiner LXC
+Comment[it]=Strumento per eseguire un contenitore LXC
+Comment[de]=Tool zum Ausführen eines LXC-Containers
+Exec=kaisen-launcher --command "lxc-execute -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

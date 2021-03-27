@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=pst2dii
+Comment=Tool to analyse PST file
+Comment[fr]=Outil pour analyser un fichier PST
+Comment[es]=Herramienta para analizar un archivo PST
+Comment[pt]=Ferramenta para analisar um arquivo PST
+Comment[it]=Strumento per analizzare un file PST
+Comment[de]=Tool zum Analysieren einer PST-Datei
+Exec=kaisen-launcher --command "pst2dii"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PST
+X-Kaisen-Package=pst-utils

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+RED='\e[1;31m'
+
+if [[ "$EUID" -ne "0" ]]; then
+        echo -e $RED "Run this script as root or with sudo command."
+        exit 1
+fi
+
+systemctl enable lxcfs || true
+systemctl start lxcfs || true
+systemctl enable lxc-net || true
+systemctl start lxc-net || true
+systemctl enable lxc || true
+systemctl start lxc || true

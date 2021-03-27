@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lmsensors-disable
+Name[fr]=lmsensors-désactivé
+Name[es]=lmsensors-desactivados
+Name[pt]=lmsensors-desativado
+Name[it]=lmsensors-disattivati
+Name[de]=lmsensors-deaktiviert
+Comment=Disable lmsensors daemon
+Comment[fr]=Désactiver service lmsensors
+Comment[es]=Deshabilitar servicio lmsensors
+Comment[pt]=Desativar serviço lmsensors
+Comment[it]=Disabilita servizio lmsensors
+Comment[de]=Deaktivieren Sie den lmsensors-Dienst
+Exec=kaisen-launcher --command "/opt/services/lmsensors-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SLMSensors
+X-Kaisen-Package=lm-sensors

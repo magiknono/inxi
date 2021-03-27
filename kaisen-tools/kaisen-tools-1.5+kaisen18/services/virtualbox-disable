@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+RED='\e[1;31m'
+
+if [[ "$EUID" -ne "0" ]]; then
+        echo -e $RED "Run this script as root or with sudo command."
+        exit 1
+fi
+
+systemctl disable vboxweb || true
+systemctl stop vboxweb || true
+systemctl disable virtualbox || true
+systemctl stop virtualbox || true
+systemctl disable virtualbox-guest-utils || true
+systemctl stop virtualbox-guest-utils || true

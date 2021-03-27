@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+RED='\e[1;31m'
+
+if [[ "$EUID" -ne "0" ]]; then
+        echo -e $RED "Run this script as root or with sudo command."
+        exit 1
+fi
+
+systemctl disable clamav-daemon || true
+systemctl stop clamav-daemon || true
+systemctl disable clamav-freshclam || true
+systemctl stop clamav-freshclam || true
+systemctl disable clamav-milter || true
+systemctl stop clamav-milter || true
+

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxc-info
+Comment=Tool to get information about an LXC container
+Comment[fr]=Outil pour avoir des informations sur un conteneur LXC
+Comment[es]=Herramienta para obtener información sobre un contenedor LXC
+Comment[pt]=Ferramenta para obter informações sobre um contêiner LXC
+Comment[it]=Strumento per ottenere informazioni su un contenitore LXC
+Comment[de]=Tool zum Abrufen von Informationen zu einem LXC-Container
+Exec=kaisen-launcher --command "lxc-info -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

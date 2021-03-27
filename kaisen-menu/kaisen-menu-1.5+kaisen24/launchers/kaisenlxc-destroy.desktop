@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxc-destroy
+Comment=Tool to delete LXC container
+Comment[fr]=Outil pour supprimer un container LXC
+Comment[es]=Herramienta para eliminar un contenedor LXC
+Comment[pt]=Ferramenta para excluir um contêiner LXC
+Comment[it]=Strumento per eliminare un contenitore LXC
+Comment[de]=Tool zum Löschen eines LXC-Containers
+Exec=kaisen-launcher --command "lxc-destroy -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

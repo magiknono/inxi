@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=jfs_fscklog
+Comment=Tool to repair JFS partition (logs)
+Comment[fr]=Outil pour réparer une partition JFS (logs)
+Comment[es]=Herramienta para reparar una partición JFS (registros)
+Comment[pt]=Ferramenta para reparar uma partição JFS (logs)
+Comment[it]=Strumento per riparare una partizione JFS (registri)
+Comment[de]=Tool zum Reparieren einer JFS-Partition (Protokolle)
+Exec=kaisen-launcher --command "jfs_fscklog" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=JFS
+X-Kaisen-Package=jfsutils

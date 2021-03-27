@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=dhclient
+Comment=Tool to actualize DHCP lease
+Comment[fr]=Outil pour actualiser le bail DHCP
+Comment[es]=Herramienta para actualizar el arrendamiento de DHCP
+Comment[pt]=Ferramenta para atualizar a concessão do DHCP
+Comment[it]=Strumento per aggiornare il contratto di locazione DHCP
+Comment[de]=Tool zum Aktualisieren der DHCP-Lease
+Exec=kaisen-launcher --command "dhclient" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DHCP
+X-Kaisen-Package=kaisen-network-tools

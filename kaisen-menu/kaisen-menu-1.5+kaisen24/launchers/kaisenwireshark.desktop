@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Wireshark
+Comment=Tool to scan all trames in network
+Comment[fr]=Outil pour scanner toutes les trames sur le réseau
+Comment[es]=Herramienta para escanear todos los marcos en la red
+Comment[pt]=Ferramenta para digitalizar todos os quadros na rede
+Comment[it]=Strumento per scansionare tutti i frame sulla rete
+Comment[de]=Tool zum Scannen aller Frames im Netzwerk
+Exec=sh -c "gksudo wireshark"
+Icon=wireshark
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=wireshark

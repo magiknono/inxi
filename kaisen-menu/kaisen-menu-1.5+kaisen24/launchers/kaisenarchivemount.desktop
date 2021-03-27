@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=archivemount
+Comment=Tool to mount archive files
+Comment[fr]=Outil pour monter des fichers d'archives
+Comment[es]=Herramienta para montar archivos de almacenamiento
+Comment[pt]=Ferramenta para montagem de arquivos compactados
+Comment[it]=Strumento per il montaggio di file di archivio
+Comment[de]=Tool zum Mounten von Archivdateien
+Exec=kaisen-launcher --command "archivemount -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Mount
+X-Kaisen-Package=archivemount

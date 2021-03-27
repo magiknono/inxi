@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lft
+Comment=An alternative to traceroute tool
+Comment[fr]=Une alternative à l'outil traceroute
+Comment[es]=Una alternativa a la herramienta traceroute
+Comment[pt]=Uma alternativa à ferramenta traceroute
+Comment[it]=Un'alternativa allo strumento traceroute
+Comment[de]=Eine Alternative zum Traceroute-Tool
+Exec=kaisen-launcher --command "lft"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=lft

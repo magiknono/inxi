@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=socat
+Comment=Tool to relay TCP sockets
+Comment[fr]=Outil pour relayer des sockets TCP
+Comment[es]=Herramienta para retransmitir sockets TCP
+Comment[pt]=Ferramenta para retransmitir soquetes TCP
+Comment[it]=Strumento per inoltrare socket TCP
+Comment[de]=Tool zum Weiterleiten von TCP-Sockets
+Exec=kaisen-launcher --command "socat -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=TCP
+X-Kaisen-Package=socat

@@ -1,0 +1,172 @@
+kaisen-tools (1.5+kaisen19) kaisen-testing; urgency=medium
+
+  * Adding inxi on kaisen-hardware metapackage
+
+ -- Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>  Sat, 27 Mar 2021 22:36:20 +0200
+
+kaisen-tools (1.5+kaisen18) kaisen-packages; urgency=medium
+
+  * Adding kaisen-documentation and kaisen-manpages on kaisen-miscallenous metapackage
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 27 Mar 2021 07:11:17 +0200
+
+kaisen-tools (1.5+kaisen17) kaisen-packages; urgency=medium
+
+  * Timeshift and cryptsetup-nuke-password is now installed with kaisen-sysadmin-tools
+  * Tools in metapackages are marked as recommended and no longer as dependencies
+  * Create kaisen-miscellaneous postinst to define vim editor by default
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 26 Mar 2021 22:06:09 +0200
+
+kaisen-tools (1.5+kaisen16) kaisen-packages; urgency=medium
+
+  * Adding tools:
+    - cryptsetup-nuke-password
+    - sslyze
+    - apt-btrfs-snapshot
+    - ddrescue
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 26 Mar 2021 04:23:28 +0200
+
+kaisen-tools (1.5+kaisen15) kaisen-packages; urgency=medium
+
+  * Create postrm script to remove services launcher if
+    kaisen-services-management is delete
+  * Remove kaisen-services-management dependancy on all metapackages
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 19 Mar 2021 02:17:41 +0200
+
+kaisen-tools (1.5+kaisen14) kaisen-packages; urgency=medium
+
+  * Readding psensor tool
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 16 Mar 2021 02:32:41 +0200
+
+kaisen-tools (1.5+kaisen13) kaisen-packages; urgency=medium
+
+  * Remove kaisen-remote-maintenance package
+  * Remove teamviewer and anydesk systemd scripts
+  * Remove teamviewer and anydesk launchers in kaisen-basemenu-purge
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 09 Mar 2021 00:14:47 +0200
+
+kaisen-tools (1.5+kaisen12) kaisen-packages; urgency=medium
+
+  * Remove sed scripts to update repositories URL (only push on deb.kaisenlinux.org)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 25 Feb 2021 00:53:44 +0200
+
+kaisen-tools (1.5+kaisen11) kaisen-packages; urgency=medium
+
+  * Add sed script in postinst to update all Kaisen Linux repositories
+  * Update control file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 23 Feb 2021 01:02:16 +0200
+
+kaisen-tools (1.5+kaisen10) kaisen-packages; urgency=medium
+
+  * Separation of spice and libvirt
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 06 Feb 2021 18:51:38 +0200
+
+kaisen-tools (1.5+kaisen9) kaisen-packages; urgency=medium
+
+  * Add spice daemons on services scripts
+  * Add spice, qemu-agent and virt-viewer tools
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 06 Feb 2021 08:09:36 +0200
+
+kaisen-tools (1.5+kaisen8) kaisen-packages; urgency=medium
+
+  * Add darkstat service
+  * Add vgauth service (vmware)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 31 Jan 2021 03:59:46 +0200
+
+kaisen-tools (1.5+kaisen7) kaisen-packages; urgency=medium
+
+  * Add python3-ldapdomaindump depend for kaisen-sysadmin-tools package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 30 Jan 2021 17:09:11 +0200
+
+kaisen-tools (1.5+kaisen6) kaisen-packages; urgency=medium
+
+  * Add || true in services/*
+  * Move content services/etcsetserial* in services/setserial*
+  * Move irqbalance to kaisen-miscellaneous-tools
+  * Delete services/rpcbind*
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 09 Jan 2021 23:14:08 +0200
+
+kaisen-tools (1.5+kaisen5) kaisen-packages; urgency=medium
+
+  * Remove psensor tool (amd64 arch will be maintained)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 04 Jan 2021 00:55:21 +0200
+
+kaisen-tools (1.5+kaisen4) kaisen-packages; urgency=medium
+
+  * Add disable/enable containerd service
+  * Move ; by && and add full-upgrade after fix broken
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 03 Jan 2021 21:41:22 +0200
+
+kaisen-tools (1.5+kaisen3) kaisen-packages; urgency=medium
+
+  * Add check root execution in sbin script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 02 Jan 2021 20:44:12 +0200
+
+kaisen-tools (1.5+kaisen2) kaisen-packages; urgency=medium
+
+  * Add tools:
+    - pssh
+    - zstd
+    - apache2-utils
+    - ndiff
+    - yamllint
+    - darkstat
+    - hunt
+    - nmapsi4
+    - ltrace
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 02 Jan 2021 16:29:04 +0200
+
+kaisen-tools (1.5+kaisen1) kaisen-packages; urgency=medium
+
+  * Add hfsprescue tool
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 29 Dec 2020 22:41:32 +0200
+
+kaisen-tools (1.5) kaisen-packages; urgency=medium
+
+  * Add puppet tool
+  * Update to 1.5
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 07 Dec 2020 00:09:22 +0200
+
+kaisen-tools (1.4+kaisen10) kaisen-packages; urgency=medium
+
+  * Delete replaces in control file
+  * Update compat to 13
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 05 Dec 2020 03:38:29 +0200
+
+kaisen-tools (1.4+kaisen9) kaisen-packages; urgency=medium
+
+  * Replace exfatprogs by exfat-utils
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 02 Dec 2020 23:12:04 +0200
+
+kaisen-tools (1.4+kaisen8) kaisen-packages; urgency=medium
+
+  * Add teamviewerapi launcher on sbin/kaisen-basemenu-purge
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 27 Nov 2020 22:13:14 +0200
+
+kaisen-tools (1.4+kaisen7) kaisen-packages; urgency=medium
+
+  * All tools integrated on Kaisen Linux is now here.
+  * No add or remove tool
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 29 Oct 2020 20:31:02 +0200

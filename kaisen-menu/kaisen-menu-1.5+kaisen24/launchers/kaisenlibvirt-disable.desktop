@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=libvirt-disable
+Name[fr]=libvirt-désactivé
+Name[es]=libvirt-deshabilitado
+Name[pt]=libvirt-desativado
+Name[it]=libvirt-disabilitato
+Name[de]=libvirt-deaktiviert
+Comment=Disable libvirt daemon
+Comment[fr]=Désactiver service libvirt
+Comment[es]=Deshabilitar servicio libvirt
+Comment[pt]=Desativar serviço libvirt
+Comment[it]=Disabilita servizio libvirt
+Comment[de]=Deaktivieren Sie den libvirt-Dienst
+Exec=kaisen-launcher --command "/opt/services/libvirt-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=libvirt-daemon

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=scalpel
+Comment=Tool for recovery data based on Foremost
+Comment[fr]=Outil de récupération de données basé sur Foremost
+Comment[es]=Herramienta de recuperación de datos basada en primer plano
+Comment[pt]=Ferramenta de recuperação de dados baseada em primeiro plano
+Comment[it]=Strumento di recupero dati più avanzato
+Comment[de]=Vorrangiges Datenwiederherstellungstool
+Exec=kaisen-launcher --command "scalpel -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=scalpel

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=nethogs
+Comment=Tool for network process monitoring
+Comment[fr]=Outil pour monitorer les processus réseaux
+Comment[es]=Herramienta para monitorear procesos de red
+Comment[pt]=Ferramenta para monitorar processos de rede
+Comment[it]=Strumento per monitorare i processi di rete
+Comment[de]=Tool zur Überwachung von Netzwerkprozessen
+Exec=kaisen-launcher --command "nethogs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Monitoring
+X-Kaisen-Package=nethogs

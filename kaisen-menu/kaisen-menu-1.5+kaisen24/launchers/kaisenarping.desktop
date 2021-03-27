@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arping
+Comment=Tool to ping an ARP address
+Comment[fr]=Outil pour pinger une adresse ARP
+Comment[es]=Herramienta para hacer ping a una dirección ARP
+Comment[pt]=Ferramenta para executar ping em um endereço ARP
+Comment[it]=Strumento per eseguire il ping di un indirizzo ARP
+Comment[de]=Tool zum Pingen einer ARP-Adresse
+Exec=kaisen-launcher --command "arping"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=iputils-arping

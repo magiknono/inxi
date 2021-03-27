@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=scp
+Comment=Tool to send a file to a remote computer
+Comment[fr]=Outil pour envoyer dses fichiers sur un ordinateur distant
+Comment[es]=Herramienta para enviar archivos a una computadora remota
+Comment[pt]=Ferramenta para enviar arquivos para um computador remoto
+Comment[it]=Strumento per inviare file a un computer remoto
+Comment[de]=Tool zum Senden von Dateien an einen Remotecomputer
+Exec=kaisen-launcher --command "scp"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=ssh

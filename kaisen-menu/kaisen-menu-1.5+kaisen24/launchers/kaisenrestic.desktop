@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=restic
+Comment=Backup tool with versioning
+Comment[fr]=Outil de sauvegarde avec versioning
+Comment[es]=Herramienta de respaldo con versionado
+Comment[pt]=Ferramenta de backup com controle de versão
+Comment[it]=Strumento di backup con controllo delle versioni
+Comment[de]=Backup-Tool mit Versionierung
+Exec=kaisen-launcher --command "restic"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=restic

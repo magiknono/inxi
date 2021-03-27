@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=docker.io
+Comment=Execution environment in Linux containers
+Comment[fr]=Environnement d'exécution de conteneurs Linux
+Comment[es]=Entorno de tiempo de ejecución de contenedor de Linux
+Comment[pt]=Ambiente de Tempo de Execução do Contêiner Linux
+Comment[it]=Ambiente di runtime del contenitore Linux
+Comment[de]=Linux-Container-Laufzeitumgebung
+Exec=kaisen-launcher --command "docker --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Docker
+X-Kaisen-Package=docker.io

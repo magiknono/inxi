@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e
+
+RED='\e[1;31m'
+
+if [[ "$EUID" -ne "0" ]]; then
+        echo -e $RED "Run this script as root or with sudo command."
+        exit 1
+fi
+
+systemctl disable libvirtd.service || true
+systemctl stop libvirtd.service || true
+systemctl disable virtlockd.socket || true
+systemctl stop virtlockd.socket || true
+systemctl disable virtlogd.socket || true
+systemctl stop virtlogd.socket || true
+systemctl disable libvirtd.socket || true
+systemctl stop libvirtd.socket || true
+systemctl disable libvirtd-ro.socket || true
+systemctl stop libvirtd-ro.socket || true
+systemctl disable libvirt-guests.service || true
+systemctl stop libvirt-guests.service || true
+systemctl disable libvirtd-admin.socket || true
+systemctl stop libvirtd-admin.socket || true
+systemctl disable virtlockd-admin.socket || true
+systemctl stop virtlockd-admin.socket || true
+systemctl disable virtlogd-admin.socket || true
+systemctl stop virtlogd-admin.socket || true

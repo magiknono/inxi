@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=curl
+Comment=Tool to transfer data
+Comment[fr]=Outil de transfert de données
+Comment[es]=Herramienta de transferencia de datos
+Comment[pt]=Ferramenta de transferência de dados
+Comment[it]=Strumento di trasferimento dati
+Comment[de]=Datenübertragungstool
+Exec=kaisen-launcher --command "curl --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SystemSecurity
+X-Kaisen-Package=curl

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=tcpreplay
+Comment=Tool to receive records of tcpdump files
+Comment[fr]=Outil pour recevoir des fichiers tcpdump
+Comment[es]=Herramienta para recibir archivos tcpdump
+Comment[pt]=Ferramenta para receber arquivos tcpdump
+Comment[it]=Strumento per ricevere file tcpdump
+Comment[de]=Tool zum Empfangen von tcpdump-Dateien
+Exec=kaisen-launcher --command "tcpreplay -H" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=TCP
+X-Kaisen-Package=tcpreplay

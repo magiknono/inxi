@@ -1,0 +1,17 @@
+#!/bin/bash
+
+case "$1" in
+    configure|triggered)
+
+        /usr/share/kaisen-menu/update-kaisen-menu
+
+	if [ ! -d /opt/services ]; then
+		rm -f /usr/share/applications/{*-disable.desktop,*-enable.desktop}
+	fi
+
+        [ "$1" = "triggered" ] && exit 0
+
+        if which dconf >/dev/null 2>&1; then
+            dconf update || true
+        fi
+esac

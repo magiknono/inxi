@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arptables
+Comment=Tool to manage ARP tables
+Comment[fr]=Outil pour manipuler les tables ARP
+Comment[es]=Herramienta para manipular tablas ARP
+Comment[pt]=Ferramenta para manipular tabelas ARP
+Comment[it]=Strumento per manipolare le tabelle ARP
+Comment[de]=Tool zum Bearbeiten von ARP-Tabellen
+Exec=kaisen-launcher --command "arptables -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=arptables

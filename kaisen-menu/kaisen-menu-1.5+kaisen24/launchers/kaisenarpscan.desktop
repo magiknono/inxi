@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arp-scan
+Comment=Tool to scan ARP protocol
+Comment[fr]=Outil pour scanner le protocole ARP
+Comment[es]=Herramienta para escanear el protocolo ARP
+Comment[pt]=Ferramenta para verificar o protocolo ARP
+Comment[it]=Strumento per scansionare il protocollo ARP
+Comment[de]=Tool zum Scannen des ARP-Protokolls
+Exec=kaisen-launcher --command "arp-scan --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=arp-scan

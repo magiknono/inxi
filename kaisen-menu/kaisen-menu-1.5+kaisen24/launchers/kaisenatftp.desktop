@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=atftp
+Comment=TFTP client
+Comment[fr]=Client TFTP
+Comment[es]=Cliente TFTP
+Comment[pt]=Cliente TFTP
+Comment[it]=Client TFTP
+Comment[de]=TFTP-Client
+Exec=kaisen-launcher --command "atftp"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NetworkSecurity
+X-Kaisen-Package=atftp

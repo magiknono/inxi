@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=dirvish-expire
+Comment=Tool to backup a filesystem
+Comment[fr]=Outil pour sauvegarder un système de fichiers
+Comment[es]=Herramienta para hacer una copia de seguridad de un sistema de archivos
+Comment[pt]=Ferramenta para fazer backup de um sistema de arquivos
+Comment[it]=Strumento per il backup di un file system
+Comment[de]=Tool zum Sichern eines Dateisystems
+Exec=kaisen-launcher --command "dirvish-expire" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Dirvish
+X-Kaisen-Package=dirvish

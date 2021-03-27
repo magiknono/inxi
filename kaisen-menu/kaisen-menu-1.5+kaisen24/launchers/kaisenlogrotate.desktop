@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=logrotate
+Comment=Tool to log management
+Comment[fr]=Outil de gestion de logs
+Comment[es]=Herramienta de gestión de registros
+Comment[pt]=Ferramenta de gerenciamento de log
+Comment[it]=Strumento di gestione dei log
+Comment[de]=Protokollverwaltungstool
+Exec=kaisen-launcher --command "logrotate" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NetworkSecurity
+X-Kaisen-Package=logrotate

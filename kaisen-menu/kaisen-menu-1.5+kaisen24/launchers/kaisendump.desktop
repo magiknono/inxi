@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=dump
+Comment=Tool to backup ext partitions
+Comment[fr]=Outil pour sauvegarder les partitions ext
+Comment[es]=Herramienta para guardar particiones ext
+Comment[pt]=Ferramenta para salvar partições ext
+Comment[it]=Strumento per salvare le partizioni ext
+Comment[de]=Tool zum Speichern von Ext-Partitionen
+Exec=kaisen-launcher --command "dump" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=dump
